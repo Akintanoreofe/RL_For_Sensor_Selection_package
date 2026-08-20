@@ -1,7 +1,7 @@
 
 # RL_For_Sensor_Selection_Package
 
-A Python package for processing psychrometric data and optimizing sensor placement using Reinforcement Learning (Thompson Sampling). 
+## A Python package for processing psychrometric data and optimizing sensor placement using Reinforcement Learning (Thompson Sampling). 
 ---
 
 ## Features
