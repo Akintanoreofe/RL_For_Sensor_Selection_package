@@ -13,10 +13,14 @@
 
 ---
 
-## Installation
-
 To install this package locally, navigate to the root directory of the project in your terminal and run:
 
-```bash
-pip install .
-/Users/akintanoreofeoluwa/Downloads/OSP_RL_package/opt_rl_package
+>import sys
+>import os
+>
+>### 1. Navigate into the root of your package directory (if you aren't already there)
+>if not os.getcwd().endswith("opt_rl_package"):
+>    %cd opt_rl_package
+>
+>### 2. Install the package using the current notebook's Python environment 
+>!{sys.executable} -m pip install -e .
